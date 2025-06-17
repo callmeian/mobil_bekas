@@ -1,2 +1,0 @@
-with open("rf_model.pkl", "rb") as file:
-    model, feature_columns = pickle.load(file)
