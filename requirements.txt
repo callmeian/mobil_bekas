@@ -1,5 +1,0 @@
-numpy
-pandas
-scikit-learn
-streamlit
-matplotlib==3.7.1
