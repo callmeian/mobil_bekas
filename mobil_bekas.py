@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load model dan kolom fitur
-with open("rf_modell.pkl", "rb") as file:
+with open("rf_model.pkl", "rb") as file:
     model, feature_columns = pickle.load(file)
 
 st.title("🚗 Prediksi Harga Mobil Bekas")
