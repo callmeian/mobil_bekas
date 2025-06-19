@@ -35,7 +35,7 @@ with col1:
         
         'mileage': st.number_input(
             f'Jarak Tempuh (Mileage)\n(min: {df["mileage"].min():,} | max: {df["mileage"].max():,})',
-            min_value=0,
+            min_value=1,
             max_value=323000,
             value=int(df['mileage'].median())
         ),
